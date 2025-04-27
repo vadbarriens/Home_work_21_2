@@ -4,6 +4,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 hostName = "localhost"
 serverPort = 8000
 
+
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
         """Метод для обработки GET-запросов"""
@@ -25,6 +26,7 @@ class MyServer(BaseHTTPRequestHandler):
             self.send_header("Content-type", "text/html")
             self.end_headers()
             self.wfile.write(b"<h1>404 - Page Not Found</h1>")
+
 
 if __name__ == "__main__":
     # Инициализация и запуск веб-сервера

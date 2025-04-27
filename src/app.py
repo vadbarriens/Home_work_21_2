@@ -2,7 +2,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 
 # Параметры запуска сервера
 hostName = "localhost"
-serverPort = 8000
+serverPort = 8080
 
 
 class MyServer(BaseHTTPRequestHandler):

@@ -30,5 +30,5 @@ Home_work_21_2/
 git clone https://github.com/vadbarriens/Home_work_21_2
 cd online_store
 python app.py
-http://localhost:8000
+http://localhost:8080
 ~~~
